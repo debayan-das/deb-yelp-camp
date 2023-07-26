@@ -40,11 +40,14 @@ const seedDB = async () => {
 			},
 			images: [
 				{
-					url: `https://source.unsplash.com/collection/209474?${i + 1}`,
+					// url: `https://source.unsplash.com/collection/209474?${i + 1}`,
+					url:
+						"https://res.cloudinary.com/dtqbsp8gw/image/upload/v1690289794/YelpCamp/ss21zklx1y3gktv6f0ay.jpg",
 					filename: "YelpCamp/ahfnenvca4tha00h2ubt",
 				},
 				{
 					url: `https://source.unsplash.com/collection/3176392?${i + 1}`,
+					// url: 'https://res.cloudinary.com/dtqbsp8gw/image/upload/v1690289794/YelpCamp/ss21zklx1y3gktv6f0ay.jpg',
 					filename: "YelpCamp/ruyoaxgf72nzpi4y6cdi",
 				},
 			],
